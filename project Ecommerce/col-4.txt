@@ -1,0 +1,64 @@
+  <div class="col-4">
+          <img src="/images/product-1.jpg" alt="" />
+          <h4>Red T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.0</p>
+        </div>
+
+
+ <div class="row">
+        <div class="col-4">
+          <img src="/images/product-4.jpg" alt="" />
+          <h4>Red T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.0</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-4.jpg" alt="" />
+          <h4>Red T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.0</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-5.jpg" alt="" />
+          <h4>Red T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.0</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-6.jpg" alt="" />
+          <h4>Red T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.0</p>
+        </div>
+      </div>

@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="header">
@@ -20,7 +24,7 @@
             <img src="/images/logo.png" alt="logo" width="125px" />
           </div>
           <nav>
-            <ul>
+            <ul id="MenuItems">
               <li><a href="">Home</a></li>
               <li><a href="">Product</a></li>
               <li><a href="">About</a></li>
@@ -29,6 +33,12 @@
             </ul>
           </nav>
           <img src="/images/cart.png" width="30px" height="30px" alt="" />
+          <img
+            src="/images/menu.png"
+            class="menu-icon"
+            alt=""
+            onclick="MenuToggle()"
+          />
         </div>
         <div class="row">
           <div class="col-2">
@@ -50,5 +60,277 @@
         </div>
       </div>
     </div>
+    <!-- TODO: feature categories -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="/images/category-1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="/images/category-2.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="/images/category-3.jpg" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TODO : feature product -->
+    <div class="small-container">
+      <h2 class="title">Featured Product</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="/images/product-1.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-2.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-3.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-4.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Product</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="/images/product-5.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-6.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-7.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="/images/product-8.jpg" alt="" />
+          <h4>T-Shirt</h4>
+          <div class="rating">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+            <i class="fa fa-star-o" aria-hidden="true"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- TODO : offer -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="/images/exclusive.png" alt="" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Why do we use it?</p>
+            <h1>Where can I get some?</h1>
+            <small
+              >It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English.
+            </small>
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TODO : testimonial -->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <img src="/images/user-1.png" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <img src="/images/user-2.png" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+              <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <img src="/images/user-3.png" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TODO : Brands -->
+    <div class="brand">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="/images/logo-coca-cola.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="/images/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="/images/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="/images/logo-philips.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="/images/logo-paypal.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TODO : Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Translations</h3>
+            <p>
+              Can you help translate this site into a foreign language ? Please
+              email us with details if you can help.
+            </p>
+            <div class="app-logo">
+              <img src="/images/play-store.png" alt="" />
+              <img src="/images/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="/images/logo-white.png" alt="" />
+            <p>
+              Can you help translate this site into a foreign language ? Please
+              email us with details if you can help.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful - link</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Useful - link</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="copyright">Copyright 2021 - Quyen Ly</div>
+      </div>
+    </div>
   </body>
 </html>
+<script src="javascript.js"></script>
